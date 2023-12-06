@@ -1,2 +1,2 @@
 # fem
-Web con DaisyUI
+React con DaisyUI
