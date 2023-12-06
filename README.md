@@ -1,2 +1,2 @@
 # fem
-React con DaisyUI
+Angular con DaisyUI
