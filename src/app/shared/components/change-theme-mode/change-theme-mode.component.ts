@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+// import { themeChange } from 'theme-change'
 
 @Component({
   selector: 'azw-change-theme-mode',
@@ -6,12 +7,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./change-theme-mode.component.scss']
 })
 export class ChangeThemeModeComponent {
-
-  public active: boolean = false;
-
-  change(state: boolean): void {
-    this.active = state;
-    localStorage.setItem('mode', state ? 'light' : 'dark');
-  }
 
 }
