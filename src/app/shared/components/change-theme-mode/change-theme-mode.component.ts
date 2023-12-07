@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'azw-change-theme-mode',
@@ -9,8 +9,9 @@ export class ChangeThemeModeComponent {
 
   public active: boolean = false;
 
-  change(state: boolean):void{
+  change(state: boolean): void {
     this.active = state;
+    localStorage.setItem('mode', state ? 'light' : 'dark');
   }
 
 }
