@@ -16,8 +16,7 @@ const routes: Routes = [
   { path: 'violencia', component: ViolenciaComponent },
   { path: 'recursos', component: RecursosComponent },
   { path: 'encuentros', component: EncuentrosComponent },
-  { path: 'proyectos', component: ProyectosComponent },
-
+  { path: 'proyectos', component: ProyectosComponent }
 ];
 
 @NgModule({
