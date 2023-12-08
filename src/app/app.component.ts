@@ -1,6 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import { themeChange } from 'theme-change'
-import {RouterOutlet} from "@angular/router";
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {themeChange} from 'theme-change'
 
 @Component({
   selector: 'app-root',
@@ -8,14 +7,23 @@ import {RouterOutlet} from "@angular/router";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'fem';
+  @ViewChild('myDrawer') myDrawer!: ElementRef;
 
-  constructor(){
+  constructor() {
   }
 
-  ngOnInit(){
+  ngOnInit() {
     themeChange();
   }
 
-  protected readonly RouterOutlet = RouterOutlet;
+  onActivate() {
+    window.scroll({
+      top: 0,
+      left: 0,
+    });
+  }
+  close() {
+    this.myDrawer.nativeElement.click();
+  }
+
 }

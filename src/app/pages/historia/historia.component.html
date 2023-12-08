@@ -1,13 +1,24 @@
 <div class="mx-12">
-  <article class="prose sm:prose-sm md:prose-lg lg:prose-xl pb-5">
+  <article class="prose sm:prose-sm md:prose-lg lg:prose-xl pb-5 max-w-full">
     <h2>Historia</h2>
     <p>
-      For years parents have espoused the health benefits of eating garlic bread with cheese to their children, with the
-      food earning such an iconic status in our culture that kids will often dress up as warm, cheesy loaf for
-      Halloween.
+      Muchos derechos que tenemos las mujeres hoy en día fueron gracias a los aportes de las mujeres que en su época no tenían tanta
+      libertad y facilidad de poder
     </p>
-    <p></p>
   </article>
+  <article class="prose sm:prose-sm md:prose-lg lg:prose-xl pb-5 max-w-full">
+    <h4>Linea del tiempo</h4>
+  </article>
+<!--  <div class="card w-96 bg-base-100 shadow-xl">
+    <iframe class="w-full aspect-video rounded-2xl"
+            src="https://www.youtube.com/embed/tB1cWh27rmI?si=3pEJXtScuQ3g8D3L"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+  </div>-->
+
   <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
     <li>
       <div class="timeline-middle">
@@ -20,11 +31,12 @@
       <div class="timeline-start md:text-end mb-10">
         <time class="font-mono italic">1984</time>
         <div class="text-lg font-black">First Macintosh computer</div>
-        <img width="40" class="mask mask-squircle" src="/assets/mujeres/clara-campoamor.jpg"/>
         The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh personal computer. It
         played a pivotal role in establishing desktop publishing as a general office function. The motherboard, a 9 in
         (23 cm) CRT monitor, and a floppy drive were housed in a beige case with integrated carrying handle; it came
         with a keyboard and single-button mouse.
+        <img onclick="my_modal_2.showModal()" width="23" src="/assets/iconos/youtube.svg"/>
+
       </div>
       <hr/>
     </li>
@@ -43,6 +55,8 @@
         iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has been the primary
         part of Apple's consumer desktop offerings since its debut in August 1998, and has evolved through seven
         distinct forms
+        <div onclick="my_modal_2.showModal()"><img width="23" src="/assets/iconos/youtube.svg"/></div>
+
       </div>
       <hr/>
     </li>
@@ -105,3 +119,19 @@
     </li>
   </ul>
 </div>
+
+<dialog id="my_modal_2" class="modal">
+  <div class="modal-box">
+    <div>cerrar</div>
+    <iframe class="w-full aspect-video rounded-2xl"
+            src="https://www.youtube.com/embed/tB1cWh27rmI?si=3pEJXtScuQ3g8D3L"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
