@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   @ViewChild('myDrawer') myDrawer!: ElementRef;
 
   constructor() {
-    
+
   }
 
   ngOnInit() {
@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   onActivate() {
     window.scroll({
       top: 0,
-      left: 0,
+      left: 0
     });
   }
   close() {
