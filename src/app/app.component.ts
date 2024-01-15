@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   @ViewChild('myDrawer') myDrawer!: ElementRef;
 
   constructor() {
+    
   }
 
   ngOnInit() {
