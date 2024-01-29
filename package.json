@@ -1,6 +1,7 @@
 {
   "name": "fem",
   "version": "0.0.0",
+  "homepage": "https://anuskazw.github.io/fem/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4201",
