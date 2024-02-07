@@ -1,0 +1,17 @@
+<header>
+  <h1>Historia y Personajes Importantes</h1>
+  <input type="text" id="searchBar" placeholder="Buscar...">
+</header>
+<div>
+  <label for="filter">Filtrar por:</label>
+  <select id="filter">
+      <option value="all">Todos</option>
+      <option value="alphabet">Alfabético</option>
+      <option value="date">Fecha</option>
+      <option value="name">Nombre</option>
+  </select>
+</div>
+<ul id="eventList">
+  {{htmlString}}
+  <!-- Los eventos/personas se cargarán aquí dinámicamente -->
+</ul>

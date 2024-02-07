@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Caída del Imperio Romano de Occidente",
+    "fecha": "476-09-04",
+    "resumen": "Marca el fin de la antigua Roma y el comienzo de la Edad Media en Europa."
+  },
+  {
+    "nombre": "Descubrimiento de América",
+    "fecha": "1492-10-12",
+    "resumen": "Cristóbal Colón llega a América, lo que significó el encuentro de dos mundos y el comienzo de la colonización europea en el continente."
+  },
+  {
+    "nombre": "Revolución Francesa",
+    "fecha": "1789-07-14",
+    "resumen": "Inicio de un periodo de radical transformación social y política en Francia que puso fin al absolutismo."
+  },
+  {
+    "nombre": "Independencia de México",
+    "fecha": "1810-09-16",
+    "resumen": "Inicio de la lucha por la independencia de México del dominio español, liderada inicialmente por Miguel Hidalgo."
+  },
+  {
+    "nombre": "Abolición de la esclavitud en EE.UU.",
+    "fecha": "1865-12-06",
+    "resumen": "Ratificación de la Decimotercera Enmienda a la Constitución de los Estados Unidos, que abolió la esclavitud."
+  },
+  {
+    "nombre": "Asesinato de Archiduque Francisco Fernando",
+    "fecha": "1914-06-28",
+    "resumen": "Su asesinato precipitó el inicio de la Primera Guerra Mundial."
+  },
+  {
+    "nombre": "Revolución Rusa",
+    "fecha": "1917-11-07",
+    "resumen": "Derrocamiento del gobierno provisional ruso y establecimiento del gobierno soviético bajo el liderazgo de los bolcheviques."
+  },
+  {
+    "nombre": "Bombardeo de Hiroshima",
+    "fecha": "1945-08-06",
+    "resumen": "Primera bomba atómica utilizada en guerra, lanzada por Estados Unidos sobre la ciudad japonesa de Hiroshima."
+  },
+  {
+    "nombre": "Llegada del hombre a la Luna",
+    "fecha": "1969-07-20",
+    "resumen": "La misión Apollo 11 de la NASA logra el primer alunizaje tripulado, con Neil Armstrong y Buzz Aldrin."
+  },
+  {
+    "nombre": "Caída del Muro de Berlín",
+    "fecha": "1989-11-09",
+    "resumen": "Evento simbólico que marcó el inicio del fin de la Guerra Fría y la reunificación alemana."
+  },
+  {
+    "nombre": "Fin del Apartheid en Sudáfrica",
+    "fecha": "1994-04-27",
+    "resumen": "Elecciones generales en las que por primera vez votaron ciudadanos de todas las etnias, marcando el fin del apartheid."
+  },
+  {
+    "nombre": "Ataques del 11 de septiembre",
+    "fecha": "2001-09-11",
+    "resumen": "Ataques terroristas en Estados Unidos que derribaron las Torres Gemelas del World Trade Center en Nueva York."
+  },
+  {
+    "nombre": "Elección de Barack Obama",
+    "fecha": "2008-11-04",
+    "resumen": "Barack Obama es elegido el 44.º presidente de los Estados Unidos, el primero afroamericano en ocupar el cargo."
+  },
+  {
+    "nombre": "Pandemia de COVID-19",
+    "fecha": "2020-03-11",
+    "resumen": "La OMS declara la enfermedad por coronavirus (COVID-19) como pandemia mundial."
+  },
+  {
+    "nombre": "Independencia de la India",
+    "fecha": "1947-08-15",
+    "resumen": "Fin del dominio británico en la India y nacimiento de dos estados independientes, India y Pakistán."
+  },
+  {
+    "nombre": "Revolución Cubana",
+    "fecha": "1959-01-01",
+    "resumen": "Triunfo de la revolución liderada por Fidel Castro, que derrocó al dictador Fulgencio Batista."
+  },
+  {
+    "nombre": "Creación de la Unión Europea",
+    "fecha": "1993-11-01",
+    "resumen": "Entrada en vigor del Tratado de Maastricht, que marcó la fundación de la Unión Europea."
+  },
+  {
+    "nombre": "Chernóbil",
+    "fecha": "1986-04-26",
+    "resumen": "Accidente nuclear en la central de Chernóbil, considerado el peor desastre nuclear de la historia."
+  },
+  {
+    "nombre": "Primera Guerra Mundial",
+    "fecha": "1914-07-28",
+    "resumen": "Conflicto global centrado en Europa que duró hasta 1918, uno de los más mortíferos de la historia."
+  },
+  {
+    "nombre": "Segunda Guerra Mundial",
+    "fecha": "1939-09-01",
+    "resumen": "Conflicto militar global que involucró a la mayoría de las naciones del mundo, incluidas todas las grandes potencias."
+  }
+]
