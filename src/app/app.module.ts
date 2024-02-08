@@ -11,6 +11,9 @@ import { ViolenciaComponent } from './pages/violencia/violencia.component';
 import { RecursosComponent } from './pages/recursos/recursos.component';
 import { EncuentrosComponent } from './pages/encuentros/encuentros.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { PeliculasComponent } from './pages/recursos/peliculas/peliculas.component';
+import { LibrosComponent } from './pages/recursos/libros/libros.component';
+import { RedesComponent } from './pages/recursos/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
     ViolenciaComponent,
     RecursosComponent,
     EncuentrosComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    PeliculasComponent,
+    LibrosComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,

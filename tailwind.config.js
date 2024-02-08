@@ -19,7 +19,7 @@ module.exports = {
       }
     } */
   },
-  themes: [/* "pastel", "coffee", */ {
+  themes: ["pastel", "coffee", /* {
     mytheme: {
       "primary": "#5900ff",
       "secondary": "#946400",
@@ -31,7 +31,7 @@ module.exports = {
       "warning": "#ff9500",
       "error": "#ef4444"
     },
-  }],
+  } */],
   // themes: true,
   // themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
   darkTheme: "coffee", // name of one of the included themes for dark mode

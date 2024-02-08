@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'azw-recursos',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecursosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navegar(subpage: string){
+    switch (subpage) {
+      case 'libros': this.router.navigateByUrl('/libros'); break;
+      case 'redes': this.router.navigateByUrl('/redes-sociales'); break;
+      case 'peliculas': this.router.navigateByUrl('/peliculas-y-series'); break;
+    }
   }
 
 }

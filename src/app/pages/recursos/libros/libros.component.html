@@ -1,0 +1,17 @@
+<div class="page pt-12">
+  <ul class="flex justify-between mb-12 ">
+    <li *ngFor="let letra of abecedario" class="text-accesible uppercase hover:underline hover:text-primary hover:cursor-pointer">
+      <p>{{letra}}</p>
+    </li>
+  </ul>
+  <div class="pb-12 flex justify-center">
+    <input type="text" placeholder="Filtrar libros" class="input input-bordered w-full max-w-xs rounded-badge" (keydown)="filtrar($event)" />
+  </div>
+    <div class="card card-side bg-base-100 shadow-xl mb-5 border" *ngFor="let item of librosFiltrados">
+      <figure><img src="assets/imagenes/portada.jpg" alt={{item.titulo}}/></figure>
+      <div class="card-body">
+        <h2 class="card-title">{{item.titulo}} ({{item.ano_edicion}})</h2>
+        <p>{{item.autora}}</p>
+      </div>
+    </div>
+</div>

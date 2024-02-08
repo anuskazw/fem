@@ -1,60 +1,38 @@
 <div class="page">
-  <article class="prose sm:prose-sm md:prose-lg lg:prose-xl pb-5 max-w-full">
+  <article class="prose sm:prose-sm md:prose-lg lg:prose-xl pb-12 max-w-full">
     <h2>Recursos</h2>
-    <p>Todo </p>
   </article>
 
-  <div class="hero min-h-screen bg-base-100">
-    <!--<table class="table">
-      <tbody>
-      <tr>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center align-middle">
-              <img width="100" height="100" src="assets/logos/netflix-logo.png"/>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Proyecto 2</h2>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Proyecto 3</h2>
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Proyecto 4</h2>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Proyecto 5</h2>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card h-40 bg-base-100 border shadow-xl">
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Proyecto 6</h2>
-            </div>
-          </div>
-        </td>
-      </tr>
-
-      </tbody>
-    </table>-->
+  <div class="hero bg-base-100 flex">
+    <div class="card w-96 glass mx-3">
+      <figure><img src="assets/imagenes/libros.jpg" alt="car!" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Libros</h2>
+        <p>Libros de referencia o relacionados al feminismo</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary" (click)="navegar('libros')">Ver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-96 glass mx-3">
+      <figure><img src="assets/imagenes/peliculas.jpg" alt="videos" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Videos</h2>
+        <p>Largometrajes, cortometrajes y/o series</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary" (click)="navegar('peliculas')">Ver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-96 glass mx-3">
+      <figure><img src="assets/imagenes/redes.jpg" alt="redes sociales" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Redes sociales</h2>
+        <p>Personas o perfiles referentes del movimiento social feminismo</p>
+        <div class="card-actions justify-end">
+             <button class="btn btn-primary" (click)="navegar('redes')">Ver</button>
+         </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -14,6 +14,44 @@ html {
   padding: 0;
 }
 
+*{
+  --font-title: 'Montserrat';
+  --font-title-secondary: 'Protest Riot';
+
+  --font-normal: 'Lato';
+  --font-accesible: 'Open Sans', sans-serif;
+
+  --font-color-principal: #b728b7;
+  --font-color-normal: #1e1e1e;
+
+  --primary: #5900ff;
+  --secondary :  #946400;
+  --accent :  #009a00;
+  --neutral :  #2b2027;
+  --base-100 :  #fcfcfc;
+  --info :  #0084d8;
+  --success :  #00f6b7;
+  --warning :  #ff9500;
+  --error :  #ef4444;
+}
+
+* {
+  font-family: var(--font-normal);
+}
+
+button{
+  color: var(--primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  // color: var(--primary);
+}
+
+.text-accesible{
+  font-family: var(--font-accesible);
+  font-size: 16px!important;
+}
 .page{
   width: 70vw;
   margin: auto;

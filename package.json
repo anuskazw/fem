@@ -4,7 +4,7 @@
   "homepage": "https://anuskazw.github.io/fem/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4201",
+    "start": "ng serve --port 4201 -o",
     "build": "ng build --allowed-common-js-dependencies --cross-origin anonymous",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
